@@ -1,0 +1,94 @@
+body {
+    background-color: #F3F5FC;
+    margin: 0Px;
+
+}
+
+html {
+    font-size: 16PX;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.logo {
+    display: inline-block;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 40px;
+    top: 40px;
+}
+
+#hombre {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+.imagenAhorcado {
+    width: 100vw;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    height: 17rem;
+}
+
+.adivinado {
+    text-align: center;
+    color: #0A3871;
+    font-size: 3rem;
+
+}
+
+.letra-adivinada {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: solid 1px #0A3871;
+    margin-left: 0.5rem;
+    line-height: 4.5rem;
+}
+
+.errado {
+    text-align: center;
+    margin-top: 1rem;
+    vertical-align: middle;
+    color: #0A3871;
+    font-size: 2rem;
+}
+
+.letra-errada {
+    display: inline;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    line-height: 4.5rem;
+}
+
+[type="button"] {
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 16px;
+    border: solid 1px #0A3871;
+    cursor: pointer;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 3rem;
+    background-color: inherit;
+}
+
+.boton1 {
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.boton2 {
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
