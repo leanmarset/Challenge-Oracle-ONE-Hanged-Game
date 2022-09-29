@@ -16,9 +16,38 @@ html {
     gap: 40px;
     position: absolute;
     width: 2.5rem;
-    height: 2.5rem;
+    height: 3rem;
     left: 40px;
     top: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36PX;
+    margin-top: 18rem;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.botonJugar {
+    margin-left: 45%;
+    border: 1px solid #2e518b; 
+    padding: 10px;
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 26px;
+    border-radius: 50px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12PX;
+    margin-top: 18rem;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 #hombre {
@@ -89,6 +118,8 @@ html {
 }
 
 .boton2 {
+    font-size: 13px;
+    text-decoration: none;
     background-color: #F3F5FC;
     color: #0A3871;
 }
